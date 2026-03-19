@@ -5,3 +5,6 @@ Output/Hands_up
 /myenv/
 .ipynb_checkpoints
 yolov8.pt
+yolov8m.pt
+runs/
+数据集/

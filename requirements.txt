@@ -1,3 +1,35 @@
-opencv-python==4.8.0
+# 核心依赖
+opencv-python==4.8.0.76
 ultralytics==8.2.48
 mediapipe==0.10.14
+
+# 间接依赖（由核心依赖自动安装，但明确指定版本以确保兼容性）
+numpy>=1.21.2
+matplotlib>=3.3.0
+pillow>=7.1.2
+pyyaml>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+torch>=1.8.0
+torchvision>=0.9.0
+tqdm>=4.64.0
+psutil
+py-cpuinfo
+pandas>=1.1.4
+seaborn>=0.11.0
+ultralytics-thop>=2.0.0
+
+# MediaPipe依赖
+absl-py
+attrs>=19.1.0
+flatbuffers>=2.0
+jax
+jaxlib
+protobuf<5,>=4.25.3
+sounddevice>=0.4.4
+ml_dtypes>=0.5.0
+opt_einsum
+
+# 其他可能需要的依赖
+scikit-learn
+scikit-image
